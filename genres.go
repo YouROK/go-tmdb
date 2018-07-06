@@ -7,7 +7,7 @@ import (
 // Genre struct
 type Genre struct {
 	Genres []struct {
-		ID   int
+		ID   uint32
 		Name string
 	}
 }

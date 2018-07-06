@@ -72,9 +72,11 @@ type TvShort struct {
 	PosterPath    string `json:"poster_path"`
 	FirstAirDate  string `json:"first_air_date"`
 	Name          string
+	Overview      string
 	Video         bool
-	VoteAverage   float32 `json:"vote_average"`
-	VoteCount     uint32  `json:"vote_count"`
+	VoteAverage   float32  `json:"vote_average"`
+	VoteCount     uint32   `json:"vote_count"`
+	GenreIds      []uint32 `json:"genre_ids"`
 }
 
 // TvPagedResults struct
